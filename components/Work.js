@@ -46,9 +46,9 @@ export const ProfessionalExperience = ({ title, cards }) => {
 
 export const Education = ({ title, cards }) => {
 	return (
-		<div id="education" className="bg-secondary py-5 px-5">
+		<div id="education" className="bg-primary py-5 px-5">
 			<div className="container">
-				<h1 className="text-primary fw-bold">{title}</h1>
+				<h1 className="text-light fw-bold">{title}</h1>
 				<div className="d-flex flex-row flex-wrap justify-content-center">
 					{cards.map((value, index) => (
 						<Card

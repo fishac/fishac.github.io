@@ -40,7 +40,7 @@ export const Intro = ({ title, description, image, buttons }) => {
 
 export const About = ({ title, description }) => {
 	return (
-		<div id="about" className="bg-white py-5 px-5">
+		<div id="about" className="bg-secondary py-5 px-5">
 			<div className="container">
 				<h1 className="text-primary fw-bold">{title}</h1>
 				<div className="px-sm-5">

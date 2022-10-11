@@ -145,5 +145,5 @@ export const SEO = {
 	// 50 - 60 char  
 	title: "Alex Fish",
 	description: "Computational Mathematician",
-	image: profile.src,
+	image: "profile.png",
 }
