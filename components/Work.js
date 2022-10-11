@@ -2,9 +2,9 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link'
 
-export const Skills = ({ title, cards }) => {
+export const Research = ({ title, cards }) => {
 	return (
-		<div id="skills" className="bg-secondary py-5 px-5">
+		<div id="research" className="bg-secondary py-5 px-5">
 			<div className="container">
 				<h1 className="text-primary fw-bold">{title}</h1>
 				<div className="d-flex flex-row flex-wrap justify-content-center">
@@ -13,7 +13,8 @@ export const Skills = ({ title, cards }) => {
 							key={index}
 							title={value.title}
 							description={value.description}
-							link={value.link} />
+							icons={value.icons}
+							/>
 					))}
 				</div>
 			</div>
@@ -21,11 +22,11 @@ export const Skills = ({ title, cards }) => {
 	);
 }
 
-export const Projects = ({ title, cards }) => {
+export const ProfessionalExperience = ({ title, cards }) => {
 	return (
-		<div id="projects" className="bg-primary py-5 px-5">
+		<div id="professionalexperience" className="bg-primary py-5 px-5">
 			<div className="container">
-				<h1 className="text-light fw-bold">Projects</h1>
+				<h1 className="text-light fw-bold">Professional Experience</h1>
 				<div className="d-flex flex-row flex-wrap justify-content-center">
 					{cards.map((value, index) => (
 						<Card
@@ -38,6 +39,26 @@ export const Projects = ({ title, cards }) => {
 				{/* <div className="text-center">
 					<button type="button" className="btn btn-outline-light">See More</button>
 				</div> */}
+			</div>
+		</div>
+	);
+}
+
+export const Education = ({ title, cards }) => {
+	return (
+		<div id="education" className="bg-secondary py-5 px-5">
+			<div className="container">
+				<h1 className="text-primary fw-bold">{title}</h1>
+				<div className="d-flex flex-row flex-wrap justify-content-center">
+					{cards.map((value, index) => (
+						<Card
+							key={index}
+							title={value.title}
+							description={value.description}
+							icons={value.icons}
+							/>
+					))}
+				</div>
 			</div>
 		</div>
 	);

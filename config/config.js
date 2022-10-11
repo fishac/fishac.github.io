@@ -1,165 +1,149 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
-import { } from '@fortawesome/free-solid-svg-icons';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Hashir",
+	name: "Alex Fish",
 	links: [
 		{
 			title: "About",
 			link: "#about",
 		},
 		{
-			title: "Projects",
-			link: "#projects",
+			title: "Professional Experience",
+			link: "#professionalexperience",
 		},
 		{
-			title: "Contact",
-			link: "#contact",
+			title: "Research",
+			link: "#research"
 		},
 		{
-			title: "Links",
-			link: "/links",
+			title: "Education",
+			link: "#education",
 		},
 	],
 }
 export const intro = {
-	title: "Hey, I'm Hashir",
-	description: "A Computer Engineer creating mobile apps and static websites.",
+	title: "Hello, I'm Alex Fish",
+	description: "Thanks for visiting my site.",
 	image: profile.src,
 	buttons: [
 		{
-			title: "Contact Me",
-			link: "#contact",
+			title: "Email",
+			link: "mailto:acfishx@gmail.com",
 			isPrimary: true,
 		},
 		{
-			title: "Resume",
-			link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
-			isPrimary: false,
-		},
-	],
-}
-
-export const about = {
-	title: "Who I am",
-	description: [
-		"I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-		"The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-		"When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
-	],
-}
-
-export const work = {
-	title: "What I do",
-	cards: [
-		{
-			title: "Mobile App Development",
-			description: "I create pixel perfect iOS and Andriod apps using Flutter.",
-			icons: null,
+			title: "CV",
+			link: "https://docs.google.com/document/d/1gj8D6jrHCmDC9Thx2e-Kaq9Yt9_-pAKhq8KJMuxFvXc/edit?usp=sharing",
+			isPrimary: true,
 		},
 		{
-			title: "Web Development",
-			description: "I create responsive static websites using Reactjs.",
-			icons: null,
+			title: "GitHub",
+			link: "https://github.com/fishac",
+			isPrimary: true,
+		},
+		{
+			title: "Google Scholar",
+			link: "https://scholar.google.com/citations?hl=en&user=obr5HzIAAAAJ",
+			isPrimary: true,
 		}
 	],
 }
 
-export const projects = {
-	title: "Projects",
-	cards: [
-		{
-			title: "StarBook",
-			description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
-			icons: [
-				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-				},
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/star_book",
-				},
-			]
-		},
-		{
-			title: "QuranTalk",
-			description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
-			icons: [
-				{
-					icon: faAppStore,
-					link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-				},
-				{
-					icon: faGooglePlay,
-					link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-				},
-			]
-		},
-		{
-			title: "Portfolio",
-			description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-			icons: [
-				{
-					icon: faGithub,
-					link: "https://github.com/hashirshoaeb/portfolio",
-				},
-			]
-		},
+export const about = {
+	title: "About Me",
+	description: [
+		"I am expecting to graduate with a PhD in Applied and Computational Mathematics from Southern Methodist University in May, 2023. My advisor is Daniel Reynolds and I am currently funded by FASTMath SciDAC. My research is focused on adaptivitity in multirate numerical IVP-solving methods.",
+		"I am passionate about mathematics and software development with experience in industry, academia, and national labs.",
+		"I am currently looking for a post-graduation job in computational mathematics, scientific computing, machine learning, and related fields!"
 	],
 }
 
-export const contact = {
-	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
-	buttons: [
+export const professionalexperience = {
+	title: "Professional Experience",
+	cards: [
 		{
-			title: "Email Me",
-			link: "mailto:hashirshoaeb@gmail.com",
-			isPrimary: true,
+			title: "Intern, Lawrence-Livermore National Lab",
+			description: "In the summer of 2022 I interned with the SUNDIALS team to optimize integrator parameters, in collaboration with the GPTune team.",
+			icons: null,
 		},
 		{
-			title: "Schedule Meeting",
-			link: "",
-			isPrimary: false,
+			title: "Software Engineer, Northrop Grumman",
+			description: "From May, 2018 to June, 2020, as both intern and full software engineer, I worked with a team in an agile environment to develop software for the US Government.",
+			icons: null,
 		},
-	]
+		{
+			title: "Intern, InterPublic Group",
+			description: "In the summer of 2017 I interned with InterPublic Group, writing user-management scripts and developing tools for their global IT Support.",
+			icons: null
+		
+		}
+	],
 }
+
+export const research = {
+	title: "Research",
+	cards: [
+		{
+			title: "New Family of Numerical IVP-Solving Methods",
+			description: "This work is in development.",
+			icons: null
+		},
+		{
+			title: "New Numerical IVP-Solving Methods in Existing Families",
+			description: "This work is in development.",
+			icons: null
+		},
+		{
+			title: "Adaptive Time Step Control for Multirate Infinitesimal Methods",
+			description: "Novel time-step controllers specifically designed for multirate infintesimal numerical IVP-solving methods leveraging techniques from Control Theory.",
+			icons: [
+				{
+					icon: faLink,
+					link: "https://arxiv.org/abs/2202.10484"
+				}
+			]
+		},
+		{
+			title: "CloneMap",
+			description: "An Eclipse IDE plug-in to assist software engineers in managing code clones, similar segments of code within a codebase, across versions of software.",
+			icons: [
+				{
+					icon: faLink,
+					link: "https://ieeexplore.ieee.org/abstract/document/8500143"
+				}
+			]
+		}
+	],
+}
+
+export const education = {
+	title: "Education",
+	cards: [
+		{
+			title: "PhD, Applied and Computational Mathematics",
+			description: "Southern Methodist University. Expected May, 2023. Advisor: Daniel Reynolds. Thesis topic: Adaptivity in multirate numerical IVP-solving methods.",
+			icons: null
+		},
+		{
+			title: "MS, Applied Mathematics",
+			description: "University of Washington. 2020.",
+			icons: null
+		},
+		{
+			title: "BS, Mathematics with Computer Science Minor",
+			description: "University of Nebraska Omaha. 2019.",
+			icons: null
+		}
+	],
+}
+
 
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-	description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
-	image: profile.src,
-}
-
-export const links = {
-	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
-	cards: [
-		{
-			title: "My website",
-			link: "https://hashirshoaeb.com/",
-		},
-		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
-		},
-		{
-			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
-		},
-		{
-			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
-		},
-	]
+	title: "Alex Fish",
+	description: "Computational Mathematician",
+	image: profile.png,
 }
