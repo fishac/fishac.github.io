@@ -97,7 +97,7 @@ export const research = {
 		},
 		{
 			title: "Adaptive Time Step Control for Multirate Infinitesimal Methods",
-			description: "Novel time-step controllers specifically designed for multirate infintesimal numerical IVP-solving methods leveraging techniques from Control Theory.",
+			description: "Novel time-step controllers specifically designed for multirate infinitesimal numerical IVP-solving methods leveraging techniques from Control Theory.",
 			icons: [
 				{
 					icon: faLink,
