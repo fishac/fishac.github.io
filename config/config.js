@@ -102,7 +102,7 @@ export const research = {
 		},
 		{
 			title: "Adaptive Time Step Control for Multirate Infinitesimal Methods",
-			description: "Novel time-step controllers specifically designed for multirate infinitesimal numerical IVP-solving methods leveraging techniques from Control Theory.",
+			description: "Novel time-step controllers specifically designed for multirate infinitesimal numerical IVP-solving methods leveraging techniques from Control Theory. 2022.",
 			icons: [
 				{
 					icon: faLink,
@@ -112,7 +112,7 @@ export const research = {
 		},
 		{
 			title: "CloneMap",
-			description: "An Eclipse IDE plug-in to assist software engineers in managing code clones, similar segments of code within a codebase, across versions of software.",
+			description: "An Eclipse IDE plug-in to assist software engineers in managing code clones, similar segments of code within a codebase, across versions of software. 2018.",
 			icons: [
 				{
 					icon: faLink,
