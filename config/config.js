@@ -54,7 +54,7 @@ export const intro = {
 export const about = {
 	title: "About Me",
 	description: [
-		"I am expecting to graduate with a PhD in Applied and Computational Mathematics from Southern Methodist University in May, 2023. My advisor is Daniel Reynolds and I am currently funded by FASTMath SciDAC. My research is focused on adaptivitity in multirate numerical IVP-solving methods.",
+		"I am expecting to graduate with a PhD in Applied and Computational Mathematics from Southern Methodist University in May, 2023. My advisor is Daniel Reynolds and I am currently funded by FASTMath SciDAC. My research is focused on adaptivity in multirate numerical IVP-solving methods.",
 		"I am passionate about mathematics and software development with experience in industry, academia, and national labs.",
 		"I am currently looking for a post-graduation job in computational mathematics, scientific computing, machine learning, and related fields!"
 	],
