@@ -39,6 +39,11 @@ export const intro = {
 			isPrimary: true,
 		},
 		{
+			title: "LinkedIn",
+			link: "https://www.linkedin.com/in/alex-fish-212981137/",
+			isPrimary: true,
+		},
+		{
 			title: "GitHub",
 			link: "https://github.com/fishac",
 			isPrimary: true,
@@ -47,7 +52,7 @@ export const intro = {
 			title: "Google Scholar",
 			link: "https://scholar.google.com/citations?hl=en&user=obr5HzIAAAAJ",
 			isPrimary: true,
-		}
+		},
 	],
 }
 
