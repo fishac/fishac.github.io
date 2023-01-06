@@ -61,7 +61,7 @@ export const about = {
 	description: [
 		"I am expecting to graduate with a PhD in Applied and Computational Mathematics from Southern Methodist University in May, 2023. My advisor is Daniel Reynolds and I am currently funded by FASTMath SciDAC. My research is focused on adaptivity in multirate numerical IVP-solving methods.",
 		"I am passionate about mathematics and software development with experience in industry, academia, and national labs.",
-		"I am currently looking for a post-graduation job in computational mathematics, scientific computing, machine learning, and related fields!"
+		"I am currently looking for a post-graduation job in data science, machine learning, and computational mathematics!"
 	],
 }
 
@@ -82,7 +82,11 @@ export const professionalexperience = {
 			title: "Intern, InterPublic Group",
 			description: "In the summer of 2017 I interned with InterPublic Group, writing user-management scripts and developing tools for their global IT Support.",
 			icons: null
-		
+		},
+		{
+			title: "Intern, InterPublic Group",
+			description: "In the summer of 2017 I interned with InterPublic Group, writing user-management scripts and developing tools for their global IT Support.",
+			icons: null
 		}
 	],
 }
@@ -91,14 +95,14 @@ export const research = {
 	title: "Research",
 	cards: [
 		{
-			title: "New Family of Numerical IVP-Solving Methods",
-			description: "This work is in development.",
-			icons: null
-		},
-		{
-			title: "New Numerical IVP-Solving Methods in Existing Families",
-			description: "This work is in development.",
-			icons: null
+			title: "Implicit-Explicit Multirate Infinitesimal Stage-Restart Methods",
+			description: "A flexible, efficient family of methods for numerically solving IVPs with the first adaptivity capability for any class of IMEX MRI methods.",
+			icons: [
+				{
+					icon: faLink,
+					link: "https://arxiv.org/abs/2301.00865"
+				}
+			]
 		},
 		{
 			title: "Adaptive Time Step Control for Multirate Infinitesimal Methods",
