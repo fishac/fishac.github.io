@@ -61,8 +61,34 @@ export const about = {
 	description: [
 		"I am expecting to graduate with a PhD in Applied and Computational Mathematics from Southern Methodist University in May, 2023. My advisor is Daniel Reynolds and I am currently funded by FASTMath SciDAC. My research is focused on adaptivity in multirate numerical IVP-solving methods.",
 		"I am passionate about mathematics and software development with experience in industry, academia, and national labs.",
-		"I am currently looking for a post-graduation job in data science, machine learning, and computational mathematics!"
+		"I am currently looking to start my career in data science, machine learning, and computational mathematics!"
 	],
+}
+
+export const portfolioprojects = {
+		projects: [
+		{
+			title: "A Chess AI With Poor Eyesight",
+			description: "Oh, no! The computer lost its glasses! This chess AI can only recognize the location and color of pieces on board, and was trained on a deep-learning model to be able to guess the correct board state when it makes a move.",
+			github: "https://github.com/fishac/PoorEyesightChess",
+			report: "https://github.com/fishac/DS-Projects/blob/main/ForecastingWindPower/ForecastingWindPowerReport.pdf",
+			keywords: "feature engineering, classification, deep learning, PyTorch, model deployment" 
+		},
+		{
+			title: "Predicting Chess Game Winner During the Middlegame",
+			description: "Predicting the winner of a chess game after turn 20 given the board state and history of the game to that point, trained on millions of games with 25+ turns played.",
+			github: "https://github.com/fishac/PoorEyesightChess",
+			report: "https://github.com/fishac/DS-Projects/blob/main/ForecastingWindPower/ForecastingWindPowerReport.pdf",
+			keywords: "feature engineering, classification, cross validation, parameter tuning, logistic regression, XGBoost" 
+		},
+		{
+			title: "Forecasting Wind Power Generation",
+			description: "A suite of forecasting models predicting wind-power generation from a single turbine.",
+			github: "https://github.com/fishac/DS-Projects/tree/main/ForecastingWindPower",
+			report: "https://github.com/fishac/DS-Projects/blob/main/ForecastingWindPower/ForecastingWindPowerReport.pdf",
+			keywords: "data cleaning, feature selection, forecasting, linear regression, SARIMA, XGBoost"
+		}
+	]
 }
 
 export const professionalexperience = {
@@ -77,11 +103,6 @@ export const professionalexperience = {
 			title: "Software Engineer, Northrop Grumman",
 			description: "From May, 2018 to June, 2020, as both intern and full software engineer, I worked with a team in an agile environment to develop software for the US Government.",
 			icons: null,
-		},
-		{
-			title: "Intern, InterPublic Group",
-			description: "In the summer of 2017 I interned with InterPublic Group, writing user-management scripts and developing tools for their global IT Support.",
-			icons: null
 		},
 		{
 			title: "Intern, InterPublic Group",
