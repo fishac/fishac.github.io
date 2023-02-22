@@ -40,7 +40,7 @@ export const PortfolioProjects = ({ projects }) => {
 				<h1 className="text-primary fw-bold">Portfolio Projects</h1>
 				<div className="px-sm-5">
 					{projects.map((value,index) => (
-						<div>
+						<div key={value.key}>
 							<p style={projecttitlestyle}><b>{value.title}</b></p>
 							<p style={projectbodystyle}>{value.description} See the <a href={value.github}>Github (link)</a> or just the <a href={value.report}>report (link).</a></p>
 							<p><b>Keywords:</b> {value.keywords}</p>

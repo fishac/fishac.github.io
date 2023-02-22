@@ -68,24 +68,35 @@ export const about = {
 export const portfolioprojects = {
 		projects: [
 		{
+			key: "pooreyesightchess",
 			title: "A Chess AI With Poor Eyesight",
-			description: "Oh, no! The computer lost its glasses! This chess AI can only recognize the location and color of pieces on board, and was trained on a deep-learning model to be able to guess the correct board state when it makes a move.",
+			description: "Oh, no! The computer lost its glasses! This chess AI can only recognize the location and color of pieces on board, and was trained with a deep-learning model on a database of millions of games played by real people to be able to guess the correct board state when it makes a move.",
 			github: "https://github.com/fishac/PoorEyesightChess",
-			report: "https://github.com/fishac/DS-Projects/blob/main/ForecastingWindPower/ForecastingWindPowerReport.pdf",
-			keywords: "feature engineering, classification, deep learning, PyTorch, model deployment" 
+			report: "https://raw.githubusercontent.com/fishac/PoorEyesightChess/master/PoorEyesightChessReport.pdf",
+			keywords: "data mining, feature engineering, classification, class imbalance, deep learning, PyTorch, parameter tuning, ensemble modeling, model deployment, dashboard" 
 		},
 		{
+			key: "multilocationproductforecasting",
+			title: "Multi-Location/Multi-Product Demand Forecasting",
+			description: "Forecasting demand of a variety of products for branches of a chain store scattered across multiple cities. I evaluated and compared multiple model structures, informed by analysis of the data.",
+			github: "https://github.com/fishac/DS-Projects/tree/main/ForecastingMultiregionFoodDemand",
+			report: "https://raw.githubusercontent.com/fishac/DS-Projects/main/ForecastingMultiregionFoodDemand/MultiRegionMultiProductDemandForecasting.pdf",
+			keywords: "forecasting, regression, time series, auto-regressive (AR) models, XGBoost, ensemble modeling, parameter tuning, feature selection, table joins, dashboard" 
+		},
+		{
+			key: "predictingchesswinner",
 			title: "Predicting Chess Game Winner During the Middlegame",
 			description: "Predicting the winner of a chess game after turn 20 given the board state and history of the game to that point, trained on millions of games with 25+ turns played.",
-			github: "https://github.com/fishac/PoorEyesightChess",
-			report: "https://github.com/fishac/DS-Projects/blob/main/ForecastingWindPower/ForecastingWindPowerReport.pdf",
-			keywords: "feature engineering, classification, cross validation, parameter tuning, logistic regression, XGBoost" 
+			github: "https://github.com/fishac/DS-Projects/tree/main/PredictingChessWinner",
+			report: "https://raw.githubusercontent.com/fishac/DS-Projects/main/PredictingChessWinner/PredictingChessWinnerReport.pdf",
+			keywords: "data mining, feature engineering, classification, logistic regression, XGBoost" 
 		},
 		{
+			key: "forecastingwindpower",
 			title: "Forecasting Wind Power Generation",
 			description: "A suite of forecasting models predicting wind-power generation from a single turbine.",
 			github: "https://github.com/fishac/DS-Projects/tree/main/ForecastingWindPower",
-			report: "https://github.com/fishac/DS-Projects/blob/main/ForecastingWindPower/ForecastingWindPowerReport.pdf",
+			report: "https://raw.githubusercontent.com/fishac/DS-Projects/main/ForecastingWindPower/ForecastingWindPowerReport.pdf",
 			keywords: "data cleaning, feature selection, forecasting, linear regression, SARIMA, XGBoost"
 		}
 	]
