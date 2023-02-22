@@ -61,8 +61,45 @@ export const about = {
 	description: [
 		"I am expecting to graduate with a PhD in Applied and Computational Mathematics from Southern Methodist University in May, 2023. My advisor is Daniel Reynolds and I am currently funded by FASTMath SciDAC. My research is focused on adaptivity in multirate numerical IVP-solving methods.",
 		"I am passionate about mathematics and software development with experience in industry, academia, and national labs.",
-		"I am currently looking for a post-graduation job in data science, machine learning, and computational mathematics!"
+		"I am currently looking to start my career in data science, machine learning, and computational mathematics!"
 	],
+}
+
+export const portfolioprojects = {
+		projects: [
+		{
+			key: "pooreyesightchess",
+			title: "A Chess AI With Poor Eyesight",
+			description: "Oh, no! The computer lost its glasses! This chess AI can only recognize the location and color of pieces on board, and was trained with a deep-learning model on a database of millions of games played by real people to be able to guess the correct board state when it makes a move.",
+			github: "https://github.com/fishac/PoorEyesightChess",
+			report: "https://raw.githubusercontent.com/fishac/PoorEyesightChess/master/PoorEyesightChessReport.pdf",
+			keywords: "data mining, feature engineering, classification, class imbalance, deep learning, PyTorch, parameter tuning, ensemble modeling, model deployment, dashboard" 
+		},
+		{
+			key: "multilocationproductforecasting",
+			title: "Multi-Location/Multi-Product Demand Forecasting",
+			description: "Forecasting demand of a variety of products for branches of a chain store scattered across multiple cities. I evaluated and compared multiple model structures, informed by analysis of the data.",
+			github: "https://github.com/fishac/DS-Projects/tree/main/ForecastingMultiregionFoodDemand",
+			report: "https://raw.githubusercontent.com/fishac/DS-Projects/main/ForecastingMultiregionFoodDemand/MultiRegionMultiProductDemandForecasting.pdf",
+			keywords: "forecasting, regression, time series, auto-regressive (AR) models, XGBoost, ensemble modeling, parameter tuning, feature selection, table joins, dashboard" 
+		},
+		{
+			key: "predictingchesswinner",
+			title: "Predicting Chess Game Winner During the Middlegame",
+			description: "Predicting the winner of a chess game after turn 20 given the board state and history of the game to that point, trained on millions of games with 25+ turns played.",
+			github: "https://github.com/fishac/DS-Projects/tree/main/PredictingChessWinner",
+			report: "https://raw.githubusercontent.com/fishac/DS-Projects/main/PredictingChessWinner/PredictingChessWinnerReport.pdf",
+			keywords: "data mining, feature engineering, classification, logistic regression, XGBoost" 
+		},
+		{
+			key: "forecastingwindpower",
+			title: "Forecasting Wind Power Generation",
+			description: "A suite of forecasting models predicting wind-power generation from a single turbine.",
+			github: "https://github.com/fishac/DS-Projects/tree/main/ForecastingWindPower",
+			report: "https://raw.githubusercontent.com/fishac/DS-Projects/main/ForecastingWindPower/ForecastingWindPowerReport.pdf",
+			keywords: "data cleaning, feature selection, forecasting, linear regression, SARIMA, XGBoost"
+		}
+	]
 }
 
 export const professionalexperience = {
@@ -77,11 +114,6 @@ export const professionalexperience = {
 			title: "Software Engineer, Northrop Grumman",
 			description: "From May, 2018 to June, 2020, as both intern and full software engineer, I worked with a team in an agile environment to develop software for the US Government.",
 			icons: null,
-		},
-		{
-			title: "Intern, InterPublic Group",
-			description: "In the summer of 2017 I interned with InterPublic Group, writing user-management scripts and developing tools for their global IT Support.",
-			icons: null
 		},
 		{
 			title: "Intern, InterPublic Group",

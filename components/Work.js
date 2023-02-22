@@ -22,6 +22,39 @@ export const Research = ({ title, cards }) => {
 	);
 }
 
+const projecttitlestyle = {
+	margin: '0',
+	padding: '0',
+	fontSize: 20
+}
+
+const projectbodystyle = {
+	margin: '0',
+	padding: '0'
+}
+
+export const PortfolioProjects = ({ projects }) => {
+	return (
+		<div id="portfolioprojects" className="bg-secondary py-5 px-5">
+			<div className="container">
+				<h1 className="text-primary fw-bold">Portfolio Projects</h1>
+				<div className="px-sm-5">
+					{projects.map((value,index) => (
+						<div key={value.key}>
+							<p style={projecttitlestyle}><b>{value.title}</b></p>
+							<p style={projectbodystyle}>{value.description} See the <a href={value.github}>Github (link)</a> or just the <a href={value.report}>report (link).</a></p>
+							<p><b>Keywords:</b> {value.keywords}</p>
+						</div>
+					))}
+				</div>
+				{/* <div className="text-center">
+					<button type="button" className="btn btn-outline-light">See More</button>
+				</div> */}
+			</div>
+		</div>
+	);
+}
+
 export const ProfessionalExperience = ({ title, cards }) => {
 	return (
 		<div id="professionalexperience" className="bg-primary py-5 px-5">
