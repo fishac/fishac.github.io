@@ -59,9 +59,9 @@ export const intro = {
 export const about = {
 	title: "About Me",
 	description: [
-		"I am expecting to graduate with a PhD in Applied and Computational Mathematics from Southern Methodist University in May, 2023. My advisor is Daniel Reynolds and I am currently funded by FASTMath SciDAC. My research is focused on adaptivity in multirate numerical IVP-solving methods.",
-		"I am passionate about mathematics and software development with experience in industry, academia, and national labs.",
-		"I am currently looking to start my career in data science, machine learning, and computational mathematics!"
+		"I am a mathematician and software engineer always looking to expand my boundaries.",
+		"I earned a PhD in Computional and Applied Mathematics from Southern Methodist University in May, 2023. My thesis topic was in developing novel, efficient algorithms for solving multirate initial-value problems and my advisor was Daniel Reynolds. See my published papers in the Research section below.",
+		"My interests include scientific computing, software engineering, machine learning, high-performance and distributed computing, statistical analysis, and more."
 	],
 }
 
@@ -106,7 +106,12 @@ export const professionalexperience = {
 	title: "Professional Experience",
 	cards: [
 		{
-			title: "Intern, Lawrence-Livermore National Lab",
+			title: "Software Engineer 3, Peraton",
+			description: "Software Engineer on the NASA JPSS Command, Control, and Communications Sustainment team since May, 2023.",
+			icons: null,
+		},
+		{
+			title: "Intern, Lawrence Livermore National Lab",
 			description: "In the summer of 2022 I interned with the SUNDIALS team to optimize integrator parameters, in collaboration with the GPTune team.",
 			icons: null,
 		},
@@ -132,7 +137,7 @@ export const research = {
 			icons: [
 				{
 					icon: faLink,
-					link: "https://arxiv.org/abs/2301.00865"
+					link: "https://www.sciencedirect.com/science/article/pii/S0377042723004788?via%3Dihub"
 				}
 			]
 		},
@@ -143,6 +148,10 @@ export const research = {
 				{
 					icon: faLink,
 					link: "https://arxiv.org/abs/2202.10484"
+				},
+				{
+					icon: faLink,
+					link: "https://epubs.siam.org/doi/10.1137/22M1479798"
 				}
 			]
 		},
