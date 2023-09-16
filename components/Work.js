@@ -2,13 +2,13 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link'
 
-export const Research = ({ title, cards }) => {
+export const Research = ({ researchlist }) => {
 	return (
-		<div id="research" className="bg-secondary py-5 px-5">
+		<div id="research" className="bg-primary py-5 px-5">
 			<div className="container">
-				<h1 className="text-primary fw-bold">{title}</h1>
+				<h1 className="text-secondary fw-bold">Research</h1>
 				<div className="d-flex flex-row flex-wrap justify-content-center">
-					{cards.map((value, index) => (
+					{researchlist.map((value, index) => (
 						<Card
 							key={index}
 							title={value.title}
@@ -22,74 +22,69 @@ export const Research = ({ title, cards }) => {
 	);
 }
 
-const projecttitlestyle = {
+const listElementStyle = {
+	width: '100%'
+}
+
+const titleStyle = {
 	margin: '0',
 	padding: '0',
 	fontSize: 20
 }
 
-const projectbodystyle = {
+const bodyStyle = {
 	margin: '0',
 	padding: '0'
 }
 
-export const PortfolioProjects = ({ projects }) => {
+export const PortfolioProjects = ({ portfolioprojectlist }) => {
 	return (
-		<div id="portfolioprojects" className="bg-secondary py-5 px-5">
+		<div id="portfolioprojects" className="bg-primary py-5 px-5">
 			<div className="container">
-				<h1 className="text-primary fw-bold">Portfolio Projects</h1>
+				<h1 className="text-light fw-bold">Portfolio Projects</h1>
 				<div className="px-sm-5">
-					{projects.map((value,index) => (
+					{portfolioprojectlist.map((value,index) => (
 						<div key={value.key}>
-							<p style={projecttitlestyle}><b>{value.title}</b></p>
-							<p style={projectbodystyle}>{value.description} See the <a href={value.github}>Github (link)</a> or just the <a href={value.report}>report (link).</a></p>
-							<p><b>Keywords:</b> {value.keywords}</p>
+							<p style={titleStyle} className="text-light"><b>{value.title}</b></p>
+							<p style={bodyStyle} className="text-light">{value.description} See the <a href={value.github} className="text-light"><b>Github (link)</b></a> or just the <a href={value.report} className="text-light"><b>report (link).</b></a></p>
+							<p className="text-light"><b>Keywords:</b> {value.keywords}</p>
 						</div>
 					))}
 				</div>
-				{/* <div className="text-center">
-					<button type="button" className="btn btn-outline-light">See More</button>
-				</div> */}
 			</div>
 		</div>
 	);
 }
 
-export const ProfessionalExperience = ({ title, cards }) => {
+export const ProfessionalExperience = ({ professionalexperiencelist }) => {
 	return (
-		<div id="professionalexperience" className="bg-primary py-5 px-5">
+		<div id="professionalexperience" className="bg-secondary py-5 px-5">
 			<div className="container">
-				<h1 className="text-light fw-bold">Professional Experience</h1>
-				<div className="d-flex flex-row flex-wrap justify-content-center">
-					{cards.map((value, index) => (
-						<Card
-							key={index}
-							title={value.title}
-							description={value.description}
-							icons={value.icons} />
+				<h1 className="text-primary fw-bold">Professional Experience</h1>
+				<div className="d-flex flex-row flex-wrap justify-content-left px-sm-5">
+					{professionalexperiencelist.map((value,index) => (
+						<div key={value.key}>
+							<p style={titleStyle} className="text-primary"><b>{value.title}</b></p>
+							<p style={bodyStyle}>{value.description}</p>
+						</div>
 					))}
 				</div>
-				{/* <div className="text-center">
-					<button type="button" className="btn btn-outline-light">See More</button>
-				</div> */}
 			</div>
 		</div>
 	);
 }
 
-export const Education = ({ title, cards }) => {
+export const Education = ({ educationlist }) => {
 	return (
-		<div id="education" className="bg-primary py-5 px-5">
+		<div id="education" className="bg-secondary py-5 px-5">
 			<div className="container">
-				<h1 className="text-light fw-bold">{title}</h1>
-				<div className="d-flex flex-row flex-wrap justify-content-center">
-					{cards.map((value, index) => (
-						<Card
-							key={index}
-							title={value.title}
-							description={value.description}
-							icons={value.icons}
-							/>
+				<h1 className="text-primary fw-bold">Education</h1>
+				<div className="d-flex flex-row flex-wrap justify-content-left">
+					{educationlist.map((value, index) => (
+						<div key={value.key} style={listElementStyle}>
+							<p style={titleStyle} className="text-primary"><b>{value.title}</b></p>
+							<p style={bodyStyle} className="text-primary">{value.description}</p>
+						</div>
 					))}
 				</div>
 			</div>
