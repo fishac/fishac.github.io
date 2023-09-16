@@ -104,7 +104,7 @@ export const portfolioprojectlist = [
 export const professionalexperiencelist = [
 	{
 		title: "Software Engineer 3, Peraton",
-		description: "I've been a Software Engineer on the NASA JPSS Command, Control, and Communications Sustainment team since May, 2023."
+		description: "I've been a Software Engineer on the NASA JPSS Command, Control, and Communications Software Sustainment team since May, 2023."
 	},
 	{
 		title: "Computing Division Intern, Lawrence Livermore National Lab",
